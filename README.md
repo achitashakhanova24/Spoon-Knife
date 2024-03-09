@@ -11,12 +11,11 @@ This repository contains a basic HTML webpage with an Octocat image and a styled
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Spoon-Knife</title>
     <link href="styles.css" rel="stylesheet" type="text/css" />
-  </head>
+  </head>`
 
-  <body>
+ `<body>
     <img src="forkit.gif" id="octocat" alt="" />
 
-    <!-- Feel free to change this text here -->
     <p>Fork me? Fork you, @octocat! test</p>
   </body>
 </html>`

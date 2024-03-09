@@ -1,9 +1,22 @@
-### Well hello there!
+# Spoon-Knife
 
-This repository is meant to provide an example for *forking* a repository on GitHub.
+This repository contains a basic HTML webpage with an Octocat image and a styled paragraph.
 
-Creating a *fork* is producing a personal copy of someone else's project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit *Pull Requests* to help make other people's projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.
+## HTML Structure
 
-After forking this repository, you can make some changes to the project, and submit [a Pull Request](https://github.com/octocat/Spoon-Knife/pulls) as practice.
+`html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Spoon-Knife</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
 
-For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
+  <body>
+    <img src="forkit.gif" id="octocat" alt="" />
+
+    <!-- Feel free to change this text here -->
+    <p>Fork me? Fork you, @octocat! test</p>
+  </body>
+</html>`
